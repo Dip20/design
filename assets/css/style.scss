@@ -1,0 +1,83 @@
+$body: #f7f7f7;
+$primary: #ff55aa;
+$secondary: #fff;
+@import "mixin";
+
+
+body {
+  background-color: $body;
+}
+
+.main_header {
+  width: 80%;
+  margin: auto;
+  background-color: $secondary !important;
+  margin-top: 16px;
+  border-radius: 30px;
+  padding: 10px 5px;
+  @include shadow();
+
+  ul li {
+    padding: 0px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    :hover {
+      @include hover();
+    }
+    .line{
+        color: rgb(149, 149, 149)!important;
+    }
+  }
+  .custom_btn {
+    background-color: $primary;
+    color: $secondary;
+    border-radius: 22px;
+    border: none !important;
+    :hover {
+      @include shadow();
+    }
+  }
+
+  .btn-check:focus + .btn,
+  .btn:focus {
+    box-shadow: none !important;
+  }
+}
+
+.main_content {
+  margin-top: 8%;
+  text-align: center;
+  .main_text {
+    font-size: 4em !important;
+    background-color: $primary;
+    width: 40%;
+    margin: auto;
+    padding: 18px;
+    border-radius: 17px;
+    color: $secondary;
+  }
+  .secondary_text {
+    font-size: 4em !important;
+  }
+  .intro_text {
+    width: 77%;
+    font-size: 1.7em !important;
+    margin: auto;
+    padding: 18px;
+    line-height: 1.6em;
+  }
+}
+
+.stat{
+    width: 50%;
+    margin-top: 40px;
+    background-color: $secondary;
+    padding: 12px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+  //custom hober component
+  .custom_hover:hover{
+    @include hover();
+  }

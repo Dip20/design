@@ -1,0 +1,90 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.main_header {
+  width: 80%;
+  margin: auto;
+  background-color: #fff !important;
+  margin-top: 16px;
+  border-radius: 30px;
+  padding: 10px 5px;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+}
+.main_header ul li {
+  padding: 0px 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
+.main_header ul li :hover {
+  color: #ff55aa !important;
+  transition: 0.8s;
+  text-decoration: underline !important;
+  -webkit-text-decoration-style: dotted !important;
+          text-decoration-style: dotted !important;
+  text-underline-offset: 5px;
+  text-underline-offset: 20% !important;
+}
+.main_header ul li .line {
+  color: rgb(149, 149, 149) !important;
+}
+.main_header .custom_btn {
+  background-color: #ff55aa;
+  color: #fff;
+  border-radius: 22px;
+  border: none !important;
+}
+.main_header .custom_btn :hover {
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+}
+.main_header .btn-check:focus + .btn,
+.main_header .btn:focus {
+  box-shadow: none !important;
+}
+
+.main_content {
+  margin-top: 8%;
+  text-align: center;
+}
+.main_content .main_text {
+  font-size: 4em !important;
+  background-color: #ff55aa;
+  width: 40%;
+  margin: auto;
+  padding: 18px;
+  border-radius: 17px;
+  color: #fff;
+}
+.main_content .secondary_text {
+  font-size: 4em !important;
+}
+.main_content .intro_text {
+  width: 77%;
+  font-size: 1.7em !important;
+  margin: auto;
+  padding: 18px;
+  line-height: 1.6em;
+}
+
+.stat {
+  width: 50%;
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.custom_hover:hover {
+  color: #ff55aa !important;
+  transition: 0.8s;
+  text-decoration: underline !important;
+  -webkit-text-decoration-style: dotted !important;
+          text-decoration-style: dotted !important;
+  text-underline-offset: 5px;
+  text-underline-offset: 20% !important;
+}/*# sourceMappingURL=style.css.map */

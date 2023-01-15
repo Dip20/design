@@ -1,0 +1,14 @@
+@mixin shadow() {
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.24) !important;
+}
+
+@mixin hover() {
+  color: $primary !important;
+  transition: 0.8s;
+  text-decoration: underline !important;
+  text-decoration-style: dotted !important;
+  text-underline-offset: 5px;
+  text-underline-offset: 20% !important;
+}
